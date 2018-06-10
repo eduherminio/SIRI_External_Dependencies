@@ -196,7 +196,7 @@ private:
 	std::string m_data;
 };
 
-//JJLL: Uso la versión nativa de win32 porque su rendimiento en msvc10 es muy superior
+//Uso la versión nativa de win32 porque su rendimiento en msvc10 es muy superior
 
 #ifdef UNICODE
 	typedef c2t<char, wchar_t, _c2t_native> ca2ct;
